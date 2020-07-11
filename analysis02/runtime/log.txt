@@ -1,0 +1,8 @@
+time="2020-06-16T23:11:06+08:00" level=info msg="analysis02 log start..."
+time="2020-06-16T23:11:06+08:00" level=info msg="[parseUrlString] parser url start..."
+time="2020-06-16T23:11:06+08:00" level=info msg="[readFileLineByLine] reading line start..."
+time="2020-06-16T23:11:06+08:00" level=info msg="[parseUrlString] parser url start..."
+time="2020-06-16T23:11:06+08:00" level=info msg="[parseUrlString] parser url start..."
+time="2020-06-16T23:11:06+08:00" level=info msg="[parseUrlString] parser url start..."
+time="2020-06-16T23:11:06+08:00" level=info msg="[uvCounter] uv data parse start..."
+time="2020-06-16T23:11:06+08:00" level=info msg="[parseUrlString] parser url start..."
