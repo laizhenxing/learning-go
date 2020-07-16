@@ -14,7 +14,7 @@ func main() {
 		"name": "xiao"
 	}`
 	//js1 := make(map[string]string)
-	//js1["name"] = "test"
+	//js1["name"] = "test1"
 	var p P
 	// 结构体访问控制
 	// 不可访问在解析json的时候，是掠过的

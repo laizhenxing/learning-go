@@ -8,6 +8,6 @@ func main() {
 	fmt.Println(s)
 
 	var m map[string]int
-	m["test"] = 1	// panic: assignment to entry in nil map
+	m["test1"] = 1	// panic: assignment to entry in nil map
 }
 

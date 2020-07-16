@@ -61,7 +61,7 @@ func main()  {
 	//}
 	//fmt.Println(string(s))
 	//Copy()
-	// limitReader test
+	// limitReader test1
 	limitReaderTest()
 }
 

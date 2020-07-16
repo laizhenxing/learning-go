@@ -140,7 +140,7 @@ func main() {
 	}
 	fmt.Println("wsn is: ", wsn, df.WRN())
 
-	// test.md read
+	// test1.md read
 	//rsn, d, err := df.Read()
 	//if err != nil {
 	//	fmt.Println("read file error: ", err)

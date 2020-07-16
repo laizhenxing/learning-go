@@ -23,5 +23,5 @@ func f12(n int) (r int) {
 }
 
 func main() {
-	fmt.Println("test: ", f12(3))
+	fmt.Println("test1: ", f12(3))
 }
