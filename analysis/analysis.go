@@ -236,7 +236,7 @@ func uvCounter(uvChan chan urlData, storageChan chan storageBlock, redisPool *po
 		if ret != 1 {
 			continue
 		}
-		
+
 		sItem := storageBlock{
 			counterType: "uv",
 			storageMode: "ZINCRBY",

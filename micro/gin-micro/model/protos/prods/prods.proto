@@ -1,0 +1,17 @@
+syntax = "proto3";
+package model;
+
+message ProdModel {
+    // @inject_tag: json:"pid" valid:"int"
+    int32 ProdID = 1;
+    // @inject_tag: json:"pname" valid:"string"
+    string ProdName = 2;
+}
+
+message ProdRequest {
+    int32 size = 1;
+}
+
+message ProdResponse {
+    repeated ProdModel data = 1;
+}

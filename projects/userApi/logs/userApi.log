@@ -1,0 +1,31 @@
+{"level":"ERROR","timestamp":"2020-08-28 19:13:13.924","file":"log@v0.0.0-20180607165131-972f9cd951fc/logrotate.go:227","msg":"LogRotate catch an exception"}
+{"level":"INFO","timestamp":"2020-08-28 19:13:23.821","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"192.168.10.10:8100","URI":"/v1/user/t1","X-Request-Id":"5b1ef503-ac1a-4adc-96fd-708da0909cea"}}
+{"level":"INFO","timestamp":"2020-08-28 19:13:23.823","file":"middleware/logging.go:85","msg":"1.691046ms    | 192.168.10.1 | GET /v1/user/t1 | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-28 19:17:05.769","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"192.168.10.10:8100","URI":"/v1/user","X-Request-Id":"1a4b831b-38e4-4ce3-861b-48ab0a74e248"}}
+{"level":"INFO","timestamp":"2020-08-28 19:17:05.770","file":"v1/user.go:26","msg":"User crate function called.","data":{"X-Request-Id":"1a4b831b-38e4-4ce3-861b-48ab0a74e248"}}
+{"level":"INFO","timestamp":"2020-08-28 19:17:05.835","file":"middleware/logging.go:85","msg":"64.888443ms   | 192.168.10.1 | POST /v1/user | {code: 20002, message: Database error.}"}
+{"level":"INFO","timestamp":"2020-08-28 19:17:22.343","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"192.168.10.10:8100","URI":"/v1/user","X-Request-Id":"ad022956-3e47-4932-a601-4b03d7847718"}}
+{"level":"INFO","timestamp":"2020-08-28 19:17:22.344","file":"v1/user.go:26","msg":"User crate function called.","data":{"X-Request-Id":"ad022956-3e47-4932-a601-4b03d7847718"}}
+{"level":"INFO","timestamp":"2020-08-28 19:17:22.406","file":"middleware/logging.go:85","msg":"62.265858ms   | 192.168.10.1 | POST /v1/user | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-28 19:19:59.965","file":"userApi/main.go:65","msg":"Start to listening incoming requests on http address: :8100"}
+{"level":"INFO","timestamp":"2020-08-28 19:19:59.965","file":"userApi/main.go:60","msg":"Start to listening incoming requests on http address: :8101"}
+{"level":"INFO","timestamp":"2020-08-28 19:19:59.968","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"127.0.0.1:8100","URI":"/sd/health","X-Request-Id":"a0777e2e-651c-483c-b9fe-0712d0d8ed55"}}
+{"level":"INFO","timestamp":"2020-08-28 19:19:59.969","file":"userApi/main.go:50","msg":"the router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-08-28 19:27:07.696","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"127.0.0.1:8101","URI":"/v1/users","X-Request-Id":"1ed096e7-8d25-429d-8481-6dcfeebdaa49"}}
+{"level":"INFO","timestamp":"2020-08-28 19:27:07.699","file":"middleware/logging.go:85","msg":"2.140493ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-28 19:27:37.500","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"127.0.0.1:8101","URI":"/v1/users","X-Request-Id":"a016ef49-1228-48a4-9cca-0bc67b8d7d06"}}
+{"level":"INFO","timestamp":"2020-08-28 19:27:37.502","file":"middleware/logging.go:85","msg":"1.633802ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-28 19:28:37.113","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"127.0.0.1:8101","URI":"/v1/users","X-Request-Id":"1f8fcc8b-16ba-4816-a40a-1326bf59f861"}}
+{"level":"INFO","timestamp":"2020-08-28 19:28:37.116","file":"middleware/logging.go:85","msg":"2.144415ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-28 19:30:38.199","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"127.0.0.1:8101","URI":"/v1/users","X-Request-Id":"91be9d02-5b22-4144-90b0-52b8cb09600f"}}
+{"level":"INFO","timestamp":"2020-08-28 19:30:38.201","file":"middleware/logging.go:85","msg":"1.764687ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 06:46:53.385","file":"userApi/main.go:65","msg":"Start to listening incoming requests on http address: :8100"}
+{"level":"INFO","timestamp":"2020-08-29 06:46:53.387","file":"userApi/main.go:60","msg":"Start to listening incoming requests on http address: :8101"}
+{"level":"INFO","timestamp":"2020-08-29 06:46:54.392","file":"userApi/main.go:78","msg":"Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health"}
+{"level":"INFO","timestamp":"2020-08-29 06:46:54.395","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"127.0.0.1:8100","URI":"/sd/health","X-Request-Id":"3d002cee-745d-4004-b2fa-e39a5eab88f0"}}
+{"level":"INFO","timestamp":"2020-08-29 06:46:54.395","file":"userApi/main.go:50","msg":"the router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-08-29 07:26:41.317","file":"userApi/main.go:84","msg":"Start to listening incoming requests on http address: :8100"}
+{"level":"INFO","timestamp":"2020-08-29 07:26:41.319","file":"userApi/main.go:79","msg":"Start to listening incoming requests on http address: :8101"}
+{"level":"INFO","timestamp":"2020-08-29 07:26:42.323","file":"userApi/main.go:97","msg":"Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health"}
+{"level":"INFO","timestamp":"2020-08-29 07:26:42.326","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"127.0.0.1:8100","URI":"/sd/health","X-Request-Id":"a0ef627e-2d4c-4514-9b6b-cd866551722d"}}
+{"level":"INFO","timestamp":"2020-08-29 07:26:42.327","file":"userApi/main.go:69","msg":"the router has been deployed successfully."}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package HelloMicro;
+
+service HelloMicroService {
+    rpc HelloMicro (HelloRequest) returns (HelloResponse) {
+    }
+}
+
+message HelloRequest {
+    // @inject_tag: json:"hid",form:"hid"
+    int32 id = 1;
+}
+
+message HelloResponse {
+    string data = 1;
+}
