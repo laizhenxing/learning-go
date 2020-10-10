@@ -1,0 +1,5 @@
+db:
+  host: 192.168.10.10:3306
+  user: homestead
+  password: secret
+  db_name: todolist

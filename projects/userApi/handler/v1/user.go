@@ -2,8 +2,6 @@ package v1
 
 import (
 	"fmt"
-	"userApi/pkg/auth"
-	"userApi/pkg/token"
 
 	//"github.com/astaxie/beego/validation"
 	"github.com/gin-gonic/gin"
@@ -13,7 +11,9 @@ import (
 
 	"userApi/handler"
 	"userApi/model"
+	"userApi/pkg/auth"
 	"userApi/pkg/errno"
+	"userApi/pkg/token"
 	"userApi/util"
 )
 
@@ -127,6 +127,7 @@ func Get(c *gin.Context) {
 
 // 获取多个用户的信息
 func GetList(c *gin.Context) {
+	log.Info("GetList function called.")
 	limit := com.StrTo(c.Query("pageNum")).MustInt()
 	offset := com.StrTo(c.Query("page")).MustInt()
 	username := c.Query("username")

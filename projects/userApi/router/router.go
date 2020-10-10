@@ -2,11 +2,12 @@ package router
 
 import (
 	"net/http"
-	"userApi/handler/sd"
-	v1 "userApi/handler/v1"
 
+	"github.com/gin-contrib/pprof"
 	"github.com/gin-gonic/gin"
 
+	"userApi/handler/sd"
+	v1 "userApi/handler/v1"
 	"userApi/router/middleware"
 )
 
@@ -22,6 +23,9 @@ func Load(g *gin.Engine, mw ...gin.HandlerFunc) *gin.Engine {
 	g.NoRoute(func(c *gin.Context) {
 		c.String(http.StatusNotFound, "The incorrect API route.")
 	})
+
+	// pprof router
+	pprof.Register(g)
 
 	g.POST("/v1/login", v1.Login) // 用户登录
 	g.POST("/v1/user", v1.Create) // 创建用户

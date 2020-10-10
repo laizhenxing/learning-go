@@ -29,3 +29,278 @@
 {"level":"INFO","timestamp":"2020-08-29 07:26:42.323","file":"userApi/main.go:97","msg":"Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health"}
 {"level":"INFO","timestamp":"2020-08-29 07:26:42.326","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"127.0.0.1:8100","URI":"/sd/health","X-Request-Id":"a0ef627e-2d4c-4514-9b6b-cd866551722d"}}
 {"level":"INFO","timestamp":"2020-08-29 07:26:42.327","file":"userApi/main.go:69","msg":"the router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-08-29 08:34:29.469","file":"userApi/main.go:84","msg":"Start to listening incoming requests on http address: :8100"}
+{"level":"INFO","timestamp":"2020-08-29 08:34:29.469","file":"userApi/main.go:79","msg":"Start to listening incoming requests on http address: :8101"}
+{"level":"INFO","timestamp":"2020-08-29 08:34:30.470","file":"userApi/main.go:97","msg":"Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health"}
+{"level":"INFO","timestamp":"2020-08-29 08:34:30.471","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"127.0.0.1:8100","URI":"/sd/health","X-Request-Id":"6f5efb7e-6831-4651-9392-8d98a9a03732"}}
+{"level":"INFO","timestamp":"2020-08-29 08:34:30.471","file":"userApi/main.go:69","msg":"the router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-08-29 08:38:12.665","file":"userApi/main.go:84","msg":"Start to listening incoming requests on http address: :8100"}
+{"level":"INFO","timestamp":"2020-08-29 08:38:12.665","file":"userApi/main.go:79","msg":"Start to listening incoming requests on http address: :8101"}
+{"level":"INFO","timestamp":"2020-08-29 08:38:13.667","file":"userApi/main.go:97","msg":"Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health"}
+{"level":"INFO","timestamp":"2020-08-29 08:38:13.669","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"127.0.0.1:8100","URI":"/sd/health","X-Request-Id":"89cc2298-178c-45ec-a7e8-0e70fb31ff00"}}
+{"level":"INFO","timestamp":"2020-08-29 08:38:13.671","file":"userApi/main.go:69","msg":"the router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-08-29 08:40:38.551","file":"userApi/main.go:84","msg":"Start to listening incoming requests on http address: :8100"}
+{"level":"INFO","timestamp":"2020-08-29 08:40:38.551","file":"userApi/main.go:79","msg":"Start to listening incoming requests on http address: :8101"}
+{"level":"INFO","timestamp":"2020-08-29 08:40:39.553","file":"userApi/main.go:97","msg":"Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health"}
+{"level":"INFO","timestamp":"2020-08-29 08:40:39.553","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"127.0.0.1:8100","URI":"/sd/health","X-Request-Id":"299008d0-53aa-4041-bf4e-83e91cfd5e72"}}
+{"level":"INFO","timestamp":"2020-08-29 08:40:39.554","file":"userApi/main.go:69","msg":"the router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-08-29 15:52:43.001","file":"userApi/main.go:84","msg":"Start to listening incoming requests on http address: :8100"}
+{"level":"INFO","timestamp":"2020-08-29 15:52:43.002","file":"userApi/main.go:79","msg":"Start to listening incoming requests on http address: :8101"}
+{"level":"INFO","timestamp":"2020-08-29 15:52:44.055","file":"userApi/main.go:97","msg":"Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health"}
+{"level":"INFO","timestamp":"2020-08-29 15:52:44.055","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"127.0.0.1:8100","URI":"/sd/health","X-Request-Id":"982c24fa-7ed8-49a9-b04c-67f43f2db6f4"}}
+{"level":"INFO","timestamp":"2020-08-29 15:52:44.056","file":"userApi/main.go:69","msg":"the router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-08-29 15:53:10.077","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"192.168.10.10:8100","URI":"/v1/user/t1","X-Request-Id":"b887a3af-4882-41e7-a4c9-f18cfb1d9151"}}
+{"level":"INFO","timestamp":"2020-08-29 15:53:10.146","file":"middleware/logging.go:85","msg":"68.41039ms    | 192.168.10.1 | GET /v1/user/t1 | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:12:18.905","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/sd/health","X-Request-Id":"0aaaa711-b89e-4479-857a-17529c4ba1f6"}}
+{"level":"INFO","timestamp":"2020-08-29 16:12:50.517","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/user/t1","X-Request-Id":"d2fd63ba-0180-41a7-beca-62f22b64b9a1"}}
+{"level":"INFO","timestamp":"2020-08-29 16:12:50.517","file":"middleware/logging.go:85","msg":"83.995µs      | 127.0.0.1    | GET /v1/user/t1 | {code: 10001, message: Internal server error}"}
+{"level":"INFO","timestamp":"2020-08-29 16:14:24.597","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/user/t1","X-Request-Id":"f9b6ca41-55d1-43d1-bb96-dac709036030"}}
+{"level":"INFO","timestamp":"2020-08-29 16:14:24.597","file":"middleware/logging.go:85","msg":"147.61µs      | 127.0.0.1    | GET /v1/user/t1 | {code: 10001, message: Internal server error}"}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.133","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"e824ca16-1847-453b-a4e3-6906843a4e5a"}}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.167","file":"middleware/logging.go:85","msg":"33.93584ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.184","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"9544b8d8-6b03-4a35-8ce9-07621a1e0b75"}}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.186","file":"middleware/logging.go:85","msg":"1.875538ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.198","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"2081f630-a6f0-4ca9-be78-af4ae7ef5b69"}}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.200","file":"middleware/logging.go:85","msg":"1.665284ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.212","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"8854838a-6996-434c-a586-973fc52b58e8"}}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.215","file":"middleware/logging.go:85","msg":"2.159526ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.227","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"cc52187e-6e16-4bcb-a425-2e35c708aac5"}}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.229","file":"middleware/logging.go:85","msg":"1.999076ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.241","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"1352d214-92f8-4cba-b7f0-d607f94299b0"}}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.262","file":"middleware/logging.go:85","msg":"20.629152ms   | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.275","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"ba5bc6ff-3948-4972-80d0-b8249b4cb5da"}}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.277","file":"middleware/logging.go:85","msg":"1.839934ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.289","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"4d65f0b9-193f-4ad9-84e1-9dde4413e78e"}}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.292","file":"middleware/logging.go:85","msg":"2.031575ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.304","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"7a68d595-aa29-4a00-96e3-ee5e778bf8a9"}}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.307","file":"middleware/logging.go:85","msg":"1.944765ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.321","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"ccad629c-e78d-4c47-9c3c-b4cc0bdc276d"}}
+{"level":"INFO","timestamp":"2020-08-29 16:14:53.323","file":"middleware/logging.go:85","msg":"2.001486ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:16:38.018","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/user/t1","X-Request-Id":"794abd48-17b9-478a-af96-1b811e2c339d"}}
+{"level":"INFO","timestamp":"2020-08-29 16:16:38.018","file":"middleware/logging.go:85","msg":"265.014µs     | 192.168.10.1 | GET /v1/user/t1 | {code: 10001, message: Internal server error}"}
+{"level":"INFO","timestamp":"2020-08-29 16:16:39.129","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/favicon.ico","X-Request-Id":"ea65facf-df25-48f9-a06e-6411c10b70e0"}}
+{"level":"INFO","timestamp":"2020-08-29 16:16:43.246","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/user/t1","X-Request-Id":"a819b244-ccb5-4770-aac9-1059a1986e72"}}
+{"level":"INFO","timestamp":"2020-08-29 16:16:43.247","file":"middleware/logging.go:85","msg":"1.439851ms    | 192.168.10.1 | GET /v1/user/t1 | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:19:27.503","file":"userApi/main.go:84","msg":"Start to listening incoming requests on http address: :8100"}
+{"level":"INFO","timestamp":"2020-08-29 16:19:27.504","file":"userApi/main.go:79","msg":"Start to listening incoming requests on http address: :8101"}
+{"level":"INFO","timestamp":"2020-08-29 16:19:27.504","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"127.0.0.1:8100","URI":"/sd/health","X-Request-Id":"e220535d-f85d-43a3-bcaf-c3a3315019bd"}}
+{"level":"INFO","timestamp":"2020-08-29 16:19:27.504","file":"userApi/main.go:69","msg":"the router has been deployed successfully."}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.530","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"ffa3ae26-6f84-4ee1-9b92-bc5f3466b0be"}}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.530","file":"v1/user.go:130","msg":"GetList function called."}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.532","file":"middleware/logging.go:85","msg":"2.048457ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.545","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"c99c7fdb-6cc4-4179-b27b-e59669613da5"}}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.546","file":"v1/user.go:130","msg":"GetList function called."}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.548","file":"middleware/logging.go:85","msg":"2.497404ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.561","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"950e16b5-8498-40cb-9bae-2f487550d432"}}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.561","file":"v1/user.go:130","msg":"GetList function called."}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.563","file":"middleware/logging.go:85","msg":"1.920919ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.575","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"c8d6e25d-2550-4705-b6ff-1ff843cf0c90"}}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.576","file":"v1/user.go:130","msg":"GetList function called."}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.578","file":"middleware/logging.go:85","msg":"2.291026ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.590","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"8d821e3b-c4a7-45f3-be95-54db6d2f3697"}}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.591","file":"v1/user.go:130","msg":"GetList function called."}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.594","file":"middleware/logging.go:85","msg":"2.586884ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.607","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"83904a73-59e9-4514-809b-11fa15e665cd"}}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.608","file":"v1/user.go:130","msg":"GetList function called."}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.610","file":"middleware/logging.go:85","msg":"3.078116ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.624","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"f9acecb9-55f1-4c2c-bff7-3e8494d1e15e"}}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.624","file":"v1/user.go:130","msg":"GetList function called."}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.626","file":"middleware/logging.go:85","msg":"2.187554ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.638","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"942656e0-e0bc-40c5-b3c0-e36ab11b2184"}}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.639","file":"v1/user.go:130","msg":"GetList function called."}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.641","file":"middleware/logging.go:85","msg":"2.010314ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.653","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"9fcc9153-f9c3-4896-ab53-a2bfbf528da2"}}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.654","file":"v1/user.go:130","msg":"GetList function called."}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.656","file":"middleware/logging.go:85","msg":"2.061935ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.669","file":"middleware/requestId.go:25","msg":"request info","data":{"Host":"uapiserver.com","URI":"/v1/users","X-Request-Id":"b360daed-6d1b-4bd6-b77e-31ebd0dbe9b8"}}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.669","file":"v1/user.go:130","msg":"GetList function called."}
+{"level":"INFO","timestamp":"2020-08-29 16:19:33.671","file":"middleware/logging.go:85","msg":"1.94383ms     | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}"}
+2020-08-29 16:20:37.254 INFO userApi/main.go:84 Start to listening incoming requests on http address: :8100
+2020-08-29 16:20:37.255 INFO userApi/main.go:79 Start to listening incoming requests on http address: :8101
+2020-08-29 16:20:37.256 INFO middleware/requestId.go:25 request info
+2020-08-29 16:20:37.256 INFO userApi/main.go:69 the router has been deployed successfully.
+2020-08-29 16:20:45.081 INFO middleware/requestId.go:25 request info
+2020-08-29 16:20:45.081 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:20:45.083 INFO middleware/logging.go:85 2.135506ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:20:45.129 INFO middleware/requestId.go:25 request info
+2020-08-29 16:20:45.129 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:20:45.131 INFO middleware/logging.go:85 2.416868ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:20:45.145 INFO middleware/requestId.go:25 request info
+2020-08-29 16:20:45.145 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:20:45.147 INFO middleware/logging.go:85 2.143195ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:20:45.160 INFO middleware/requestId.go:25 request info
+2020-08-29 16:20:45.160 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:20:45.162 INFO middleware/logging.go:85 2.354442ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:20:45.175 INFO middleware/requestId.go:25 request info
+2020-08-29 16:20:45.175 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:20:45.178 INFO middleware/logging.go:85 2.968299ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:20:45.192 INFO middleware/requestId.go:25 request info
+2020-08-29 16:20:45.192 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:20:45.195 INFO middleware/logging.go:85 2.268439ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:20:45.207 INFO middleware/requestId.go:25 request info
+2020-08-29 16:20:45.207 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:20:45.209 INFO middleware/logging.go:85 2.308278ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:20:45.222 INFO middleware/requestId.go:25 request info
+2020-08-29 16:20:45.222 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:20:45.224 INFO middleware/logging.go:85 2.340362ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:20:45.237 INFO middleware/requestId.go:25 request info
+2020-08-29 16:20:45.237 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:20:45.239 INFO middleware/logging.go:85 2.288288ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:20:45.254 INFO middleware/requestId.go:25 request info
+2020-08-29 16:20:45.254 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:20:45.256 INFO middleware/logging.go:85 2.298271ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:22:52.924 INFO middleware/requestId.go:25 request info
+2020-08-29 16:22:52.924 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:22:52.926 INFO middleware/logging.go:85 2.571407ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:22:52.945 INFO middleware/requestId.go:25 request info
+2020-08-29 16:22:52.945 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:22:52.947 INFO middleware/logging.go:85 1.931814ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:22:52.961 INFO middleware/requestId.go:25 request info
+2020-08-29 16:22:52.961 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:22:52.963 INFO middleware/logging.go:85 2.027936ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:22:52.975 INFO middleware/requestId.go:25 request info
+2020-08-29 16:22:52.975 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:22:52.977 INFO middleware/logging.go:85 1.97325ms     | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:22:52.990 INFO middleware/requestId.go:25 request info
+2020-08-29 16:22:52.990 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:22:52.992 INFO middleware/logging.go:85 1.950019ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:22:53.005 INFO middleware/requestId.go:25 request info
+2020-08-29 16:22:53.006 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:22:53.008 INFO middleware/logging.go:85 1.96022ms     | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:22:53.020 INFO middleware/requestId.go:25 request info
+2020-08-29 16:22:53.020 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:22:53.022 INFO middleware/logging.go:85 1.808675ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:22:53.035 INFO middleware/requestId.go:25 request info
+2020-08-29 16:22:53.035 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:22:53.037 INFO middleware/logging.go:85 2.199206ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:22:53.050 INFO middleware/requestId.go:25 request info
+2020-08-29 16:22:53.051 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:22:53.053 INFO middleware/logging.go:85 2.034121ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:22:53.066 INFO middleware/requestId.go:25 request info
+2020-08-29 16:22:53.066 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:22:53.068 INFO middleware/logging.go:85 1.904558ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:01.022 INFO userApi/main.go:84 Start to listening incoming requests on http address: :8102
+2020-08-29 16:27:01.022 INFO userApi/main.go:79 Start to listening incoming requests on http address: :8101
+2020-08-29 16:27:01.023 INFO userApi/main.go:80 listen tcp :8101: bind: address already in use
+2020-08-29 16:27:01.023 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:01.023 INFO userApi/main.go:69 the router has been deployed successfully.
+2020-08-29 16:27:23.564 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:23.564 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:23.566 INFO middleware/logging.go:85 2.086455ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:23.579 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:23.579 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:23.581 INFO middleware/logging.go:85 1.961622ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:23.594 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:23.594 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:23.597 INFO middleware/logging.go:85 2.647055ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:23.609 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:23.610 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:23.611 INFO middleware/logging.go:85 1.899475ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:23.624 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:23.624 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:23.626 INFO middleware/logging.go:85 1.858889ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:23.641 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:23.641 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:23.643 INFO middleware/logging.go:85 1.790885ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:23.656 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:23.657 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:23.661 INFO middleware/logging.go:85 4.548804ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:23.680 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:23.680 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:23.682 INFO middleware/logging.go:85 1.84965ms     | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:23.694 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:23.695 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:23.697 INFO middleware/logging.go:85 2.068753ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:23.709 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:23.709 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:23.711 INFO middleware/logging.go:85 1.872732ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:39.332 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:39.332 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:39.334 INFO middleware/logging.go:85 2.066563ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:39.349 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:39.349 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:39.351 INFO middleware/logging.go:85 2.34596ms     | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:39.364 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:39.365 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:39.367 INFO middleware/logging.go:85 2.890158ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:39.383 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:39.383 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:39.385 INFO middleware/logging.go:85 2.342799ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:39.398 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:39.399 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:39.401 INFO middleware/logging.go:85 2.281999ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:39.413 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:39.413 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:39.416 INFO middleware/logging.go:85 2.304457ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:39.428 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:39.428 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:39.430 INFO middleware/logging.go:85 2.317157ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:39.443 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:39.444 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:39.446 INFO middleware/logging.go:85 2.315367ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:39.458 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:39.458 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:39.460 INFO middleware/logging.go:85 1.99085ms     | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 16:27:39.479 INFO middleware/requestId.go:25 request info
+2020-08-29 16:27:39.480 INFO v1/user.go:130 GetList function called.
+2020-08-29 16:27:39.482 INFO middleware/logging.go:85 2.041622ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 17:23:15.087 INFO middleware/requestId.go:25 request info
+2020-08-29 17:24:04.209 INFO middleware/requestId.go:25 request info
+2020-08-29 17:24:04.209 INFO v1/user.go:130 GetList function called.
+2020-08-29 17:24:04.211 INFO middleware/logging.go:85 1.939299ms    | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 17:24:11.222 INFO middleware/requestId.go:25 request info
+2020-08-29 17:24:11.222 INFO v1/user.go:130 GetList function called.
+2020-08-29 17:24:11.224 INFO middleware/logging.go:85 1.90658ms     | 127.0.0.1    | GET /v1/users | {code: 0, message: OK}
+2020-08-29 18:50:31.709 INFO userApi/main.go:84 Start to listening incoming requests on http address: :8102
+2020-08-29 18:50:31.709 INFO userApi/main.go:79 Start to listening incoming requests on http address: :8101
+2020-08-29 18:50:32.711 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:50:33.715 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:50:34.718 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:50:35.719 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:50:36.724 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:50:37.725 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:50:38.731 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:50:39.741 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:50:40.742 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:50:41.807 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:50:41.807 FATAL userApi/main.go:67 The router has no response:  error: Cannot connect to the router.
+2020-08-29 18:51:09.557 INFO userApi/main.go:84 Start to listening incoming requests on http address: :8102
+2020-08-29 18:51:09.557 INFO userApi/main.go:79 Start to listening incoming requests on http address: :8101
+2020-08-29 18:51:10.558 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:51:11.565 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:51:12.565 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:51:13.567 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:51:14.569 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:51:15.572 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:51:16.579 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:51:17.580 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:51:18.581 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:51:19.583 INFO userApi/main.go:97 Waiting for the router retry 1 second. http://127.0.0.1:8100/sd/health
+2020-08-29 18:51:19.583 FATAL userApi/main.go:67 The router has no response:  error: Cannot connect to the router.
+2020-08-29 18:51:44.602 INFO userApi/main.go:84 Start to listening incoming requests on http address: :8100
+2020-08-29 18:51:44.602 INFO userApi/main.go:79 Start to listening incoming requests on http address: :8101
+2020-08-29 18:51:44.603 INFO middleware/requestId.go:25 request info
+2020-08-29 18:51:44.604 INFO userApi/main.go:69 the router has been deployed successfully.
+2020-08-29 18:52:28.497 INFO middleware/requestId.go:25 request info
+2020-08-29 18:52:29.510 INFO middleware/requestId.go:25 request info
+2020-08-29 18:52:41.687 INFO middleware/requestId.go:25 request info
+2020-08-29 18:52:43.748 INFO middleware/requestId.go:25 request info
+2020-08-29 18:52:44.889 INFO middleware/requestId.go:25 request info
+2020-08-29 18:52:46.788 INFO middleware/requestId.go:25 request info
+2020-08-29 18:52:48.204 INFO middleware/requestId.go:25 request info
+2020-08-29 18:52:49.507 INFO middleware/requestId.go:25 request info
+2020-08-29 18:52:50.575 INFO middleware/requestId.go:25 request info
+2020-08-29 18:52:51.498 INFO middleware/requestId.go:25 request info
+2020-08-29 18:52:52.789 INFO middleware/requestId.go:25 request info
+2020-08-29 18:52:53.692 INFO middleware/requestId.go:25 request info
+2020-08-29 18:52:54.697 INFO middleware/requestId.go:25 request info
+2020-08-29 18:53:00.155 INFO middleware/requestId.go:25 request info
+2020-08-29 18:53:01.238 INFO middleware/requestId.go:25 request info
+2020-08-29 18:53:03.549 INFO middleware/requestId.go:25 request info
+2020-08-29 18:53:04.904 INFO middleware/requestId.go:25 request info
+2020-08-29 18:53:07.140 INFO middleware/requestId.go:25 request info
+2020-08-29 18:53:08.187 INFO middleware/requestId.go:25 request info
+2020-08-29 18:53:09.413 INFO middleware/requestId.go:25 request info
+2020-08-29 18:54:00.559 INFO middleware/requestId.go:25 request info
+2020-08-29 18:55:59.515 INFO middleware/requestId.go:25 request info
+2020-08-29 18:56:01.483 INFO middleware/requestId.go:25 request info

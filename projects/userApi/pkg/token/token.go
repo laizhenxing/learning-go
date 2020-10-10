@@ -12,6 +12,8 @@ import (
 
 var (
 	ErrMissingHeader = errors.New("The length of the `Authorization` header is zero.")
+	expireDuration   = 1 * time.Hour
+	jwtSecret        = []byte(viper.GetString("jwt_secret"))
 )
 
 type Claims struct {
@@ -21,6 +23,12 @@ type Claims struct {
 
 type Token struct {
 	Token string `json:"token"`
+}
+
+type LoginClaims struct {
+	Uid  uint64 `json:"uid"`
+	Name string `json:"name"`
+	jwt.StandardClaims
 }
 
 // Claims 的默认字段
@@ -95,4 +103,44 @@ func ParseRequest(c *gin.Context) (*Claims, error) {
 
 	return Parse(t, secret)
 
+}
+
+// 使用 uid, name, secret 生成 token
+func Encode(uid uint64, name string) (tokenString string, err error) {
+	expire := time.Now().Add(expireDuration)
+
+	token := jwt.NewWithClaims(jwt.SigningMethodHS256, LoginClaims{
+		Uid:  uid,
+		Name: name,
+		StandardClaims: jwt.StandardClaims{
+			ExpiresAt: expire.Unix(),
+			Issuer:    "userApi",
+		},
+	})
+
+	return token.SignedString(jwtSecret)
+}
+
+// 解析 token
+func Decode(token string) (*LoginClaims, error) {
+	tokenClaims, err := jwt.ParseWithClaims(token, &LoginClaims{}, claimsKeyFunc(jwtSecret))
+
+	if tokenClaims != nil {
+		// 验证解析的 tokenClaim 的类型
+		if claims, ok := tokenClaims.Claims.(*LoginClaims); ok && tokenClaims.Valid {
+			return claims, nil
+		}
+	}
+
+	return nil, err
+}
+
+func claimsKeyFunc(jwtSecret []byte) jwt.Keyfunc {
+	return func(token *jwt.Token) (interface{}, error) {
+		//if _, ok := token.Method.(*jwt.SigningMethodHMAC); ok {
+		//	return nil, jwt.ErrSignatureInvalid
+		//}
+
+		return jwtSecret, nil
+	}
 }
