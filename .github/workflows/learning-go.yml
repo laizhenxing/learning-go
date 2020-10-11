@@ -9,6 +9,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2 #使用 github 官方提供的action,checkout项目到虚拟机上
 
+      - name: Install Dependencies
+        run: yarn
+      - name: Build
+        run: yarn build
+
       - name: deploy file to server
         uses: laizhenxing/learning-go@master
         with:
