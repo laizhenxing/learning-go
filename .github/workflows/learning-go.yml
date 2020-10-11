@@ -15,7 +15,7 @@ jobs:
         run: yarn build
 
       - name: deploy file to server
-        uses: laizhenxing/learning-go@master
+        uses: wlixcc/SFTP-Deploy-Action@v1.0
         with:
             useranem: 'root'
             server: '${{ secrets.PRIVATE_SREVER}}'
