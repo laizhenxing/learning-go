@@ -10,11 +10,10 @@ jobs:
         uses: actions/checkout@master #使用 github 官方提供的action,checkout项目到虚拟机上
 
       - name: deploy file to server
-        uses: laizhenxing/learning-go
+        uses: laizhenxing/learning-go@master
         with:
             useranem: 'root'
             server: '${{ secrets.PRIVATE_SREVER}}'
             ssh_private_key: '${{ secrets.ACCESS_TOKEN }}'
             local_path: './*'
             remote_path: '/root/go'
-            
