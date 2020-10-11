@@ -14,6 +14,12 @@ jobs:
       - name: Build
         run: yarn build
 
+      - name: Use Upload
+        uses: actions/upload-artifact@v2
+        with:
+          name: Upload Jsonnet File
+          path: packer/ubuntu1804.json
+
       - name: deploy file to server
         uses: laizhenxing/learning-go@master
         with:
