@@ -18,7 +18,7 @@ jobs:
         uses: wlixcc/SFTP-Deploy-Action@v1.0
         with:
             useranem: 'root'
-            server: '${{ secrets.PRIVATE_SREVER}}'
+            server: '${{ secrets.PRIVATE_SREVER }}'
             ssh_private_key: '${{ secrets.ACCESS_TOKEN }}'
             local_path: './*'
             remote_path: '/root/go'
