@@ -7,7 +7,7 @@ jobs:
     name: build
     steps:
       - name: Checkout
-        uses: actions/checkout@master #使用 github 官方提供的action,checkout项目到虚拟机上
+        uses: actions/checkout@v2 #使用 github 官方提供的action,checkout项目到虚拟机上
 
       - name: deploy file to server
         uses: laizhenxing/learning-go@master
