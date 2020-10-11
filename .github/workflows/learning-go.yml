@@ -2,7 +2,7 @@ name: Learning-go
 on: [push]
 
 jobs:
-  deploy_job:
+  build:
     runs-on: ubuntu-latest
     name: build
     steps:
