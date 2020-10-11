@@ -24,7 +24,8 @@ jobs:
         uses: laizhenxing/learning-go@master
         with:
             useranem: 'root'
-            server: '${{ secrets.PRIVATE_SREVER }}'
-            ssh_private_key: '${{ secrets.ACCESS_TOKEN }}'
-            local_path: '.'
+            host: '${{ secrets.PRIVATE_SREVER }}'
+            key: '${{ secrets.ACCESS_TOKEN }}'
+            port: 22
+            #local_path: '.'
             remote_path: '/root/go'
