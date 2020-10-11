@@ -26,5 +26,5 @@ jobs:
             useranem: 'root'
             server: '${{ secrets.PRIVATE_SREVER }}'
             ssh_private_key: '${{ secrets.ACCESS_TOKEN }}'
-            local_path: './*'
+            local_path: '.'
             remote_path: '/root/go'
