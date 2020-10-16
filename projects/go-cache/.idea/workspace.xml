@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d12dd5c6-b67c-4dd9-83a1-c2b931eba5a9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1ilfJcwuBJnrhPFQZAY7eAABS78" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d12dd5c6-b67c-4dd9-83a1-c2b931eba5a9" name="Default Changelist" comment="" />
+      <created>1602487028785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602487028785</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn,direct" />
+      </map>
+    </environment>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="755" y="221" width="400" height="687" key="#GOPATH" timestamp="1602487484779">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="755" y="221" width="400" height="687" key="#GOPATH/0.40.1920.1040@0.40.1920.1040" timestamp="1602487484779" />
+    <state x="852" y="361" width="674" height="266" key="EnvironmentVariablesDialog" timestamp="1602487696796">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="852" y="361" width="674" height="266" key="EnvironmentVariablesDialog/0.40.1920.1040@0.40.1920.1040" timestamp="1602487696796" />
+    <state x="801" y="192" key="FileChooserDialogImpl" timestamp="1602488180196">
+      <screen x="0" y="0" width="1914" height="922" />
+    </state>
+    <state x="801" y="192" key="FileChooserDialogImpl/0.0.1914.922@0.0.1914.922" timestamp="1602488180196" />
+    <state x="804" y="225" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1602487942329" />
+    <state x="496" y="74" key="SettingsEditor" timestamp="1602488214961">
+      <screen x="0" y="0" width="1914" height="922" />
+    </state>
+    <state x="496" y="74" key="SettingsEditor/0.0.1914.922@0.0.1914.922" timestamp="1602488214961" />
+    <state x="498" y="87" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1602487944245" />
+    <state x="496" y="111" key="SettingsEditor/0.40.1914.882@0.40.1914.882" timestamp="1602487239765" />
+    <state x="498" y="124" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1602487704195" />
+    <state x="704" y="328" width="635" height="289" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1602487943295">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="704" y="328" width="635" height="289" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602487943295" />
+  </component>
+</project>
