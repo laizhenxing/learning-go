@@ -4,13 +4,63 @@
 
      主要负责与 HTTP、gRPC、 thrift 等相关的逻辑
 
+  `UserTransport`
+
+    func DecodeUserRequest(ctx content.Content, r *http.Request) (interface{}, error) {
+      // 将参数解析成 UserRequest 的形式
+    }
+
+    func EncodeUserResponse(ctx content.Content, w http.ResponseWirter, response interface{}) error {
+      // 可设置头部信息
+      w.Header().Set("Content-Type", "application/json")
+      // 将结果设置为UserResponse
+      return json.NewEncoder(w).Encode(response)
+    }
+
 ##### 2. Endpoint
 
     定义 Request 和 Response 格式，并可以使用装饰器包装函数，以此来实现各种中间件嵌套
 
+  `UserEndpoint.go`
+
+    type UserRequest struct {
+      Uid    int    `json:"uid"`
+      Method string `json:"method"`
+      Token  string `json:"token"`
+    }
+
+    type UserResponse struct {
+      Result string `json:"result"`
+    }
+
+    func UserEndpoint(userService IUserService) endpoint.Endpoint {
+      return func(ctx content.Content, request interface{}) (interface{}, error) {
+
+      }
+    }
+
 ##### 3. Service
 
     业务类、接口等
+
+##### main.go
+
+    user := &UserService{}
+    endp := service.UserEndpoint(user)
+    options := []http.ServerOption{
+      http.ServerErrorEncoder(services.MyErrorEncoder)
+    }
+    serviceHandler := http.NewServer(endp, services.DecodeRequest, services.EncodeResponse)
+
+    r := mux.NewRouter()
+    {
+      r.Methods("GET").Path(`/user/{id:\d+}`).Handler(serviceHandler)
+    }
+
+    if err := httpCore.ListenAndServe(":8080", r); err != nil {
+      fmt.Println(err)
+      os.Exit(1)
+    }
 
 #### etcd
 
@@ -43,9 +93,9 @@
            }
          }
 
-  2. 使用 API 接口进行注册 
-
-    curl --request PUT --data @register-consul.json http://localhost:8500/v1/agent/service/register
+  2. 使用 API 接口进行注册
+  
+          curl --request PUT --data @register-consul.json http://localhost:8500/v1/agent/service/register
 
 
   3. 查看注册的服务
@@ -53,8 +103,7 @@
 
   4. 反注册（注销）服务
   
-    PUT /v1/agent/service/deregister/:server_id application/json
-
+          PUT /v1/agent/service/deregister/:server_id application/json
 
 #### API 限流
 
@@ -94,3 +143,5 @@
     1. 关闭：默认状态。如果请求次数异常超过设定比例，则打开熔断器。
     2. 打开：当熔断器打开的时候，直接执行降级方法。
     3. 半开：定期地尝试发起请求来确认系统是否恢复。如果恢复了，熔断器将转为关闭状态或者保持打开。通过设置 SleepWindow 来设置尝试请求间隔时间。默认5s.
+
+
