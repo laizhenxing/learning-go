@@ -1,1 +1,13 @@
 # Created by .ignore support plugin (hsz.mobi)
+/basic/http/.idea/http.iml
+/basic/http/.idea/modules.xml
+/basic/http/.idea/vcs.xml
+/basic/http/.idea/workspace.xml
+/basic/socket/.idea/modules.xml
+/basic/socket/.idea/socket.iml
+/basic/socket/.idea/vcs.xml
+/basic/socket/.idea/workspace.xml
+/projects/go-cache/.idea/go-cache.iml
+/projects/go-cache/.idea/modules.xml
+/projects/go-cache/.idea/vcs.xml
+/projects/go-cache/.idea/workspace.xml

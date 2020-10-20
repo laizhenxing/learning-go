@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	uid "github.com/satori/go.uuid"
 	guid "github.com/google/uuid"
+	uid "github.com/satori/go.uuid"
 )
 
 func main() {

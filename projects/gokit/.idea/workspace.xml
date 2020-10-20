@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c9d50e3-18d4-4b20-b7c4-7bbbf0ca4392" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../basic/excel/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/excel/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/excel/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/go-module/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/go-module/module1/runner.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/go-module/module1/runner/job.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/go-module/module2/db_pool.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/go-module/module2/pool/pool.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/go-module/module3/worker/worker.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/goroutine/channel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/goroutine/memory.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/goroutine/select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/http/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/http/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/http/reverseProxy/reverseProxy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/public/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/public/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/public/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/public/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/public/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/public/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/public/js/html5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/public/js/jquery.min-1.9.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/sync/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/sync/tilesdb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/tiles/wallhaven-ymgd2d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/views/results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/mosaic/views/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../basic/socket/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day2-single-node/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day3-http-server/geecache/byteview.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day3-http-server/geecache/cache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day3-http-server/geecache/geecache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day3-http-server/geecache/geecache_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day3-http-server/geecache/lru/lru.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day3-http-server/geecache/lru/lru_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day3-http-server/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day4-consistent-hash/geecache/byteview.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day4-consistent-hash/geecache/cache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day4-consistent-hash/geecache/geecache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day4-consistent-hash/geecache/geecache_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day4-consistent-hash/geecache/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day4-consistent-hash/geecache/lru/lru.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day4-consistent-hash/geecache/lru/lru_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day4-consistent-hash/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day5-multi-nodes/geecache/byteview.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day5-multi-nodes/geecache/cache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day5-multi-nodes/geecache/consistenthash/consistenthash.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day5-multi-nodes/geecache/consistenthash/consistenthash_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day5-multi-nodes/geecache/geecache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day5-multi-nodes/geecache/geecache_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day5-multi-nodes/geecache/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day5-multi-nodes/geecache/lru/lru.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day5-multi-nodes/geecache/lru/lru_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day5-multi-nodes/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day6-single-flight/geecache/byteview.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day6-single-flight/geecache/cache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day6-single-flight/geecache/consistenthash/consistenthash.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day6-single-flight/geecache/consistenthash/consistenthash_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day6-single-flight/geecache/geecache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day6-single-flight/geecache/geecache_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day6-single-flight/geecache/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day6-single-flight/geecache/lru/lru.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day6-single-flight/geecache/lru/lru_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day6-single-flight/geecache/peers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day6-single-flight/geecache/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day6-single-flight/geecache/singleflight/singleflight.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day6-single-flight/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day7-protobuf/geecache/byteview.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day7-protobuf/geecache/cache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day7-protobuf/geecache/consistenthash/consistenthash.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day7-protobuf/geecache/consistenthash/consistenthash_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day7-protobuf/geecache/geecache.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day7-protobuf/geecache/geecache_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day7-protobuf/geecache/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day7-protobuf/geecache/lru/lru.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day7-protobuf/geecache/lru/lru_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day7-protobuf/geecache/pb/gocachepb.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day7-protobuf/geecache/pb/gocachepb.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day7-protobuf/geecache/peers.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day7-protobuf/geecache/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day7-protobuf/geecache/singleflight/singleflight.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day7-protobuf/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/day7-protobuf/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../go-cache/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokit-cli/constance/const.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokit-cli/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokit-cli/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokit-cli/services/UserEndpoint.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokit-cli/services/UserTransport.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gokit-cli/util/getUser.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WaitN.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allowN.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products-hystry.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/register-consul.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rsa.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/AccessEndpoint.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/AccessService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/AccessTransport.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/UserEndpoint.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/UserService.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/UserTransport.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/consul.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/jwt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/jwt_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/rsa.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/rsa_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todolist/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todolist/.idea/todolist.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todolist/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todolist/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todolist/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../todolist/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../userApi/test_https.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../userApi/test_nginx.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../userApi/util/cover.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../userApi/util/cpu.profile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../userApi/util/profile001.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../userApi/util/util.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.github/workflows/learning-go.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.github/workflows/learning-go.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic/uuid/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../../basic/uuid/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic/uuid/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/../../basic/uuid/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../basic/uuid/uuid.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../basic/uuid/uuid.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1iy0U86FbeoSh6646N1hV9bEm7D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RunManager" selected="Go Test.TestParseToken in gokit/util (2)">
+    <configuration name="TestGenerateToken in gokit/util (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gokit" />
+      <working_directory value="$PROJECT_DIR$/util" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gokit/util" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestGenerateToken\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGenerateToken in gokit/util (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gokit" />
+      <working_directory value="$PROJECT_DIR$/util" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gokit/util" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestGenerateToken\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestParseToken in gokit/util (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gokit" />
+      <working_directory value="$PROJECT_DIR$/util" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gokit/util" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestParseToken\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestParseToken in gokit/util (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gokit" />
+      <working_directory value="$PROJECT_DIR$/util" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gokit/util" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestParseToken\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestParseToken in gokit/util" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gokit" />
+      <working_directory value="$PROJECT_DIR$/util" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gokit/util" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestParseToken\E$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestParseToken in gokit/util (2)" />
+        <item itemvalue="Go Test.TestParseToken in gokit/util (1)" />
+        <item itemvalue="Go Test.TestParseToken in gokit/util" />
+        <item itemvalue="Go Test.TestGenerateToken in gokit/util (2)" />
+        <item itemvalue="Go Test.TestGenerateToken in gokit/util (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c9d50e3-18d4-4b20-b7c4-7bbbf0ca4392" name="Default Changelist" comment="" />
+      <created>1602864536704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602864536704</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn,direct" />
+      </map>
+    </environment>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="852" y="330" key="EnvironmentVariablesDialog" timestamp="1602998802084">
+      <screen x="0" y="0" width="1918" height="926" />
+    </state>
+    <state x="852" y="330" key="EnvironmentVariablesDialog/0.0.1918.926@0.0.1918.926" timestamp="1602998802084" />
+    <state x="798" y="216" key="FileChooserDialogImpl" timestamp="1602998824172">
+      <screen x="0" y="0" width="1918" height="926" />
+    </state>
+    <state x="798" y="216" key="FileChooserDialogImpl/0.0.1918.926@0.0.1918.926" timestamp="1602998824172" />
+    <state width="1872" height="233" key="GridCell.Tab.0.bottom" timestamp="1603207317382">
+      <screen x="0" y="0" width="1918" height="926" />
+    </state>
+    <state width="1872" height="233" key="GridCell.Tab.0.bottom/0.0.1918.926@0.0.1918.926" timestamp="1603207317382" />
+    <state width="1872" height="233" key="GridCell.Tab.0.center" timestamp="1603207317381">
+      <screen x="0" y="0" width="1918" height="926" />
+    </state>
+    <state width="1872" height="233" key="GridCell.Tab.0.center/0.0.1918.926@0.0.1918.926" timestamp="1603207317381" />
+    <state width="1872" height="233" key="GridCell.Tab.0.left" timestamp="1603207317380">
+      <screen x="0" y="0" width="1918" height="926" />
+    </state>
+    <state width="1872" height="233" key="GridCell.Tab.0.left/0.0.1918.926@0.0.1918.926" timestamp="1603207317380" />
+    <state width="1872" height="233" key="GridCell.Tab.0.right" timestamp="1603207317381">
+      <screen x="0" y="0" width="1918" height="926" />
+    </state>
+    <state width="1872" height="233" key="GridCell.Tab.0.right/0.0.1918.926@0.0.1918.926" timestamp="1603207317381" />
+    <state x="498" y="93" width="1024" height="740" key="SettingsEditor" timestamp="1602865832604">
+      <screen x="0" y="0" width="1918" height="926" />
+    </state>
+    <state x="498" y="93" width="1024" height="740" key="SettingsEditor/0.0.1918.926@0.0.1918.926" timestamp="1602865832604" />
+    <state x="645" y="79" width="722" height="768" key="find.popup" timestamp="1603207921834">
+      <screen x="0" y="0" width="1918" height="926" />
+    </state>
+    <state x="645" y="79" width="722" height="768" key="find.popup/0.0.1918.926@0.0.1918.926" timestamp="1603207921834" />
+  </component>
+</project>
