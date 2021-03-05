@@ -16,7 +16,7 @@ func Merge(s []int) []int {
 }
 
 func merge(a, b []int) []int {
-	fs := make([]int, len(a)+len(b))
+	fs := make([]int, 0, len(a)+len(b))
 	i := 0 // ai
 	j := 0 // bj
 
